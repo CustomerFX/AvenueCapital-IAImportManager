@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Staging">
+  <DataContextMoniker Name="/StagingDataContext" />
+  <nestedChildShapes>
+    <classShape Id="1e583cf1-dbb7-40d4-bb65-ccfba261d5f5" absoluteBounds="0.5, 0.5, 2.75, 3.3093082682291666">
+      <DataClassMoniker Name="/StagingDataContext/IASource" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b42fc8a4-ef7e-4eb6-9b64-1d165b64b4d2" absoluteBounds="0.5149999999999999, 0.96, 2.7199999999999998, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

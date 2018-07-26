@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="AvenueCapital_IAWorking" Class="StagingDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=JASON-PC\SQL2012;Initial Catalog=AvenueCapital_IAWorking;Persist Security Info=True;User ID=sa" SettingsObjectName="IAImportManager.Properties.Settings" SettingsPropertyName="AvenueCapital_IAWorkingConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.IASource" Member="IASources">
+    <Type Name="IASource">
+      <Column Name="IASourceID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FundName" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="InvestorAccountName" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="OrganizationName" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="AccountingCode" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="IACategory" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="IAStatus" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="DateOpened" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="InitialInvestment" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="PFInvestorType" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="PFGroupingCode" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="AccountID" Type="System.String" DbType="NChar(12)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
