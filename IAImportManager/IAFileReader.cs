@@ -27,6 +27,10 @@ namespace IAImportManager
         public IAFileReader(FileSystemInfo file, Match nameMatch)
         {
             _file = file;
+            string sourcePath = Path.GetDirectoryName(file.FullName);
+            DataType = nameMatch.Groups["test"].Value.ToLower();
         }
+        
+        
     }
 }
